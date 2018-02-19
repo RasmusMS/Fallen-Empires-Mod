@@ -1,0 +1,25 @@
+state=
+{
+	id=744
+	name="STATE_746"
+	manpower = 6586596
+
+	state_category = town
+
+	history=
+	{
+		owner = ENG
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 5
+		}
+
+		add_core_of = BEG
+
+	}
+
+	provinces={
+		9947 1155 12049 4073
+	}
+}
