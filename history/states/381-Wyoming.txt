@@ -1,0 +1,20 @@
+
+state={
+	id=381
+	name="STATE_381"
+	manpower = 225564
+	state_category = rural
+	
+	history={
+		owner = LOU
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = LOU
+	}
+
+	provinces={
+		1767 1815 1851 4610 4723 4794 4820 7760 7688 7814 7888 10582 10587 10640 10672 10711 12535 12561 12633 12651 
+	}
+	
+}

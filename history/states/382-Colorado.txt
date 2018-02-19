@@ -1,0 +1,29 @@
+
+state={
+	id=382
+	name="STATE_382"
+	manpower = 828632
+	resources={
+		oil=5
+	}
+	
+	state_category = town
+
+	history={
+		owner = LOU
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = LOU
+		victory_points = {
+			1827 5 
+		}
+
+	}
+
+	provinces={
+		1658 1738 1756 1809 1827 3869 4668 6887 7780 10535 10588 11772 12570 12642 
+	}
+}
+
