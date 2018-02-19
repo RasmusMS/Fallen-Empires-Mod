@@ -1,6 +1,6 @@
-capital = 37 # Copenhagen
+capital = 282 # Tokyo
 
-oob = "DEN_1936"
+oob = "JAP_1936"
 
 # Starting tech
 set_technology = {
