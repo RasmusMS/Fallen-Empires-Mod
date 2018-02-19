@@ -1,0 +1,32 @@
+
+state={
+	id=323
+	name="STATE_323"
+	manpower = 5573791
+	
+	state_category = town
+	resources={
+		
+		chromium=2
+		
+	}
+	history={
+		owner = BRI
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2 
+		}
+		victory_points = {
+			4987 3 
+		}
+		add_core_of = BRI
+		add_core_of = FRI
+		add_core_of = PRI
+		add_core_of = NEP
+	}
+
+	provinces={
+		4386 4987 7374 10825 10910  
+	}
+}

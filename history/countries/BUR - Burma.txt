@@ -1,0 +1,14 @@
+capital = 288 # Rangoon
+
+oob = "BUR_1936"
+
+# Starting tech
+set_technology = {
+
+}
+
+add_ideas = {
+	
+}
+
+set_convoys = 40
