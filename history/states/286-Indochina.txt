@@ -16,11 +16,9 @@ state={
 			air_base = 2
 			4401 = {
 				naval_base = 4
-
 			}
-		add_core_of = FRN
 		}
-
+        add_core_of = FRN
 	}
 
 	provinces={

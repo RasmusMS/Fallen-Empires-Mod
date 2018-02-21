@@ -8,7 +8,7 @@ state={
 			infrastructure = 3
 
 		}
-		core_state_of = FTU
+		add_core_of = FTU
 	}
 
 	state_category = pastoral

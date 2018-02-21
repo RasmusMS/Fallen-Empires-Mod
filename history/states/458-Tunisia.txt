@@ -24,7 +24,7 @@ state={
 				naval_base = 8
 			}
 		}
-		core_state_of = FTU
+		add_core_of = FTU
 	}
 
 	provinces={
