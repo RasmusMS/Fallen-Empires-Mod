@@ -370,7 +370,7 @@ ICE = {
 
 UKR = {
 	color = rgb { 0  80  230 }
-	color_ui = rgb { 0  80  230 }	
+	color_ui = rgb { 0  80  230 }
 }
 
 AZR = {
@@ -465,7 +465,7 @@ DDR = {
 }
 KOR = {
 	color = rgb { 255  240  195 }
-	color_ui = rgb { 255 248 229 }	
+	color_ui = rgb { 255 248 229 }
 }
 ISR = {
 	color = rgb { 152  130  191 }
@@ -679,7 +679,6 @@ LAP = {
     color = rgb { 50 124 23 }
     color_ui = rgb { 50 124 23 }
 }
-
 MEX = {
 	color = rgb { 206 110 20 }
 	color_ui = rgb { 206 110 20 }
@@ -691,4 +690,24 @@ SPM = {
 BEG = {
     color = rgb { 230 230 70 }
     color_ui = rgb { 230 230 70 }
+}
+NAP = {
+		color = rgb { 112 9 163 }
+		color_ui = rgb { 112 9 163 }
+}
+PAS = {
+		color = rgb { 255 255 255 }
+		color_ui = rgb { 255 255 255 }
+}
+MIL = {
+		color = rgb { 65 175 40 }
+		color_ui = rgb { 65 175 40 }
+}
+LBA = {
+		color = rgb { 129 173 6 }
+		color_ui = rgb { 129 173 6 }
+}
+FTU = {
+		color = rgb { 13 66 135 }
+		color_ui = rgb { 13 66 135 }
 }
