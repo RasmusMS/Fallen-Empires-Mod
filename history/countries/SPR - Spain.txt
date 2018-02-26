@@ -8,7 +8,7 @@ set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_recon = 1
-	tech_support = 1		
+	tech_support = 1
 	tech_engineers = 1
 	tech_mountaineers = 1
 	gw_artillery = 1
@@ -25,22 +25,70 @@ set_technology = {
 	transport = 1
 }
 
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = SSE
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = SNI
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = SPM
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = BOL
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = MEX
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = COL
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = UCA
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = NAP
+		autonomous_state = autonomy_dominion
+	}
+	else = {
+		puppet = SSE
+		puppet = SNI
+		puppet = SPM
+		puppet = BOL
+		puppet = MEX
+		puppet = COL
+		puppet = UCA
+		puppet = NAP
+	}
+}
+
 set_politics = {
 
 	parties = {
-		democratic = { 
+		democratic = {
 			popularity = 47
 		}
 
 		fascism = {
 			popularity = 46
 		}
-		
+
 		communism = {
 			popularity = 7
 		}
 	}
-	
+
 	ruling_party = democratic
 	last_election = "1933.2.16"
 	election_frequency = 36
@@ -53,7 +101,7 @@ set_national_unity = 0.5
 1939.1.1 = {
 
 	add_political_power = 1198
-	
+
 	#generic focuses
 	complete_national_focus = army_effort
 	complete_national_focus = equipment_effort
@@ -64,7 +112,7 @@ set_national_unity = 0.5
 	complete_national_focus = industrial_effort
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
-	
+
 	oob = "SPA_1939"
 	load_oob = "unlock_tanks"
 	set_technology = {
@@ -114,19 +162,19 @@ set_national_unity = 0.5
 	set_politics = {
 
 		parties = {
-			democratic = { 
+			democratic = {
 				popularity = 22
 			}
 
 			fascism = {
 				popularity = 76
 			}
-			
+
 			communism = {
 				popularity = 2
 			}
 		}
-		
+
 		ruling_party = fascism
 		last_election = "1934.3.26"
 		election_frequency = 60

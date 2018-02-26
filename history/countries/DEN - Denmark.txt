@@ -8,7 +8,20 @@ set_technology = {
 }
 
 add_ideas = {
-	
+
 }
 
 set_convoys = 40
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = SWE
+		autonomous_state = autonomy_dominion
+	}
+	else = {
+		puppet = SWE
+	}
+}

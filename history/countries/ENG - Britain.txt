@@ -10,7 +10,7 @@ set_national_unity = 0.6
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	tech_support = 1		
+	tech_support = 1
 	tech_engineers = 1
 	tech_recon = 1
 	motorised_infantry = 1
@@ -58,37 +58,81 @@ if = {
 		has_dlc = "Together for Victory"
 	}
 	set_autonomy = {
+		target = BEG
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = BRI
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = BSA
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = BCA
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = BWA
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = BKE
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = BRU
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = BTA
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = BRH
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = BBE
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = BSU
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
 		target = MAL
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = RAJ
-		autonomous_state = autonomy_colony
-		freedom_level = 0.35
-	}
-	set_autonomy = {
-		target = CAN
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = SAF
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = AST
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
+		autonomous_state = autonomy_puppet
 	}
 	set_autonomy = {
 		target = NZL
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = AST
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = CAN
+		autonomous_state = autonomy_puppet
 	}
 	else = {
+		puppet = BEG
+		puppet = BRI
+		puppet = BSA
+		puppet = BCA
+		puppet = BWA
+		puppet = BKE
+		puppet = BRU
+		puppet = BTA
+		puppet = BRH
+		puppet = BBE
+		puppet = BSU
 		puppet = MAL
-		puppet = RAJ
+		puppet = NZL
+		puppet = AST
+		puppet = CAN
 	}
 }
 
@@ -102,7 +146,7 @@ if = {
 1939.1.1 = {
 
 	add_political_power = 1198
-	
+
 	#adding ministers
 	add_ideas = {
 		ENG_ernest_bevin
@@ -110,7 +154,7 @@ if = {
 		rsaf_enfield
 		archibald_wavell
 		charles_portal
-		english_electric		
+		english_electric
 
 		#laws
 		partial_economic_mobilisation
@@ -119,7 +163,7 @@ if = {
 		ENG_george_vi
 	}
 
-	
+
 create_country_leader = {
 	name = "Neville Chamberlain"
 	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
@@ -127,7 +171,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
-		
+
 	}
 }
 	remove_ideas = george_v #Dead
@@ -144,7 +188,7 @@ create_country_leader = {
 	complete_national_focus = uk_commonwealth_focus
 
 	give_guarantee = POL
-	
+
 	set_national_unity = 0.8
 	oob = "ENG_1939"
 	set_technology = {
@@ -222,19 +266,19 @@ create_country_leader = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		democratic = {
 			popularity = 97
 		}
 
 		fascism = {
 			popularity = 2
 		}
-		
+
 		communism = {
 			popularity = 1
 		}
 	}
-	
+
 	ruling_party = democratic
 	last_election = "1935.11.14"
 	election_frequency = 48
@@ -278,7 +322,7 @@ create_country_leader = {
 	expire = "1938.1.1"
 	ideology = liberalism
 	traits = {
-		
+
 	}
 }
 
@@ -289,7 +333,7 @@ create_country_leader = {
 #	expire = "1965.1.1"
 #	ideology = liberalism
 #	traits = {
-#		
+#
 #	}
 #}
 
@@ -300,7 +344,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
-		
+
 	}
 }
 
@@ -311,7 +355,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {
-		
+
 	}
 }
 
@@ -326,7 +370,7 @@ create_field_marshal = {
 	name = "Bernard Montgomery"
 	picture = "Portrait_Britain_Bernard_Montgomery.dds"
 	traits = { logistics_wizard offensive_doctrine  }
-	skill = 4 
+	skill = 4
 }
 
 create_corps_commander = {
@@ -467,7 +511,7 @@ create_corps_commander = {
 	picture = "Portrait_Britain_Brian_Horrocks.dds"
 	traits = {  panzer_leader }
 	skill = 3
-	
+
 }
 
 create_corps_commander = {
