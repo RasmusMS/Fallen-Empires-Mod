@@ -708,6 +708,6 @@ LBA = {
 		color_ui = rgb { 129 173 6 }
 }
 FTU = {
-		color = rgb { 13 66 135 }
-		color_ui = rgb { 13 66 135 }
+		color = rgb { 40 94 144 }
+		color_ui = rgb { 40 94 144 }
 }
