@@ -23,6 +23,24 @@ set_technology = {
 	transport = 1
 }
 
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = GRE
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = LBA
+		autonomous_state = autonomy_puppet
+	}
+
+	else = {
+		puppet = GRE
+		puppet = LBA
+	}
+}
 
 1939.1.1 = {
 
