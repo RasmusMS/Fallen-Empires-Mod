@@ -101,6 +101,9 @@ set_politics = {
 		communism = {
 			popularity = 6
 		}
+		monarchy = {
+		 popularity = 0
+		}
 	}
 
 	ruling_party = democratic

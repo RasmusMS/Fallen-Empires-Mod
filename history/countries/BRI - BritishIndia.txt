@@ -8,7 +8,26 @@ set_technology = {
 }
 
 add_ideas = {
-	
+
 }
 
 set_convoys = 40
+
+set_politics = {
+
+	parties = {
+		democratic = {
+			popularity = 10
+		}
+
+		fascism = {
+			popularity = 20
+		}
+
+		communism = {
+			popularity = 20
+		}
+		monarchy = {
+		 popularity = 50
+		}
+	}

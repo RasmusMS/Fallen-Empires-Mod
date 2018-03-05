@@ -5,7 +5,7 @@ oob = "COL_1936"
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
-	tech_support = 1		
+	tech_support = 1
 	tech_engineers = 1
 	gw_artillery = 1
 	early_fighter = 1
@@ -19,7 +19,7 @@ set_convoys = 10
 1939.1.1 = {
 
 	add_political_power = 1198
-	
+
 	#generic focuses
 	complete_national_focus = army_effort
 	complete_national_focus = equipment_effort
@@ -30,7 +30,7 @@ set_convoys = 10
 	complete_national_focus = industrial_effort
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
-	
+
 	oob = "COL_1939"
 	set_technology = {
 		interwar_artillery = 1
@@ -70,21 +70,24 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 99
+		democratic = {
+			popularity = 0
 		}
 
 		fascism = {
-			popularity = 0
+			popularity = 20
 		}
-		
+
 		communism = {
-			popularity = 1
+			popularity = 30
 			#banned = no #default is no
 		}
+		monarchy = {
+		 popularity = 50
+		}
 	}
-	
-	ruling_party = democratic
+
+	ruling_party = monarchy
 	last_election = "1934.2.11"
 	election_frequency = 48
 	elections_allowed = yes
@@ -117,23 +120,26 @@ create_country_leader = {
 	set_politics = {
 
 		parties = {
-			democratic = { 
-				popularity = 100
+			democratic = {
+				popularity = 0
 			}
 
 			fascism = {
-				popularity = 0
+				popularity = 20
 			}
-			
+
 			communism = {
-				popularity = 0
+				popularity = 30
 				#banned = no #default is no
 			}
+			monarchy = {
+			 popularity = 50
+			}
 		}
-		
-		ruling_party = democratic
+
+		ruling_party = monarchy
 		last_election = "1938.5.1"
-		election_frequency = 48  
+		election_frequency = 48
 		elections_allowed = yes
 	}
 

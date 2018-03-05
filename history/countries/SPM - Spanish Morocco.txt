@@ -62,24 +62,24 @@ set_politics = {
 
 	parties = {
 		democratic = {
-			popularity = 25
+			popularity = 10
 		}
 
 		fascism = {
-			popularity = 20
+			popularity = 16
 		}
 
-		communism = {
+		24 = {
 			popularity = 5
 			#banned = no #default is no
 		}
 
-		neutrality = {
+		monarchy = {
 			popularity = 50
 		}
 	}
 
-	ruling_party = neutrality
+	ruling_party = monarchy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

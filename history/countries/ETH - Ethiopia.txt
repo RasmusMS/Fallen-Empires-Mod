@@ -21,7 +21,7 @@ set_convoys = 5
 	complete_national_focus = industrial_effort
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
-	
+
 	set_technology = {
 
 		#doctrines
@@ -49,25 +49,24 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 0
+		democratic = {
+			popularity = 10
 		}
 
 		fascism = {
-			popularity = 0
+			popularity = 5
 		}
-		
+
 		communism = {
-			popularity = 0
-			#banned = no #default is no
+			popularity = 5
 		}
-		
-		neutrality = { 
-			popularity = 100
+
+		monarchy = {
+			popularity = 80
 		}
 	}
-	
-	ruling_party = neutrality
+
+	ruling_party = monarchy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -101,24 +100,24 @@ create_country_leader = {
 	set_politics = {
 
 		parties = {
-		democratic = { 
+		democratic = {
 			popularity = 0
 		}
 
 		fascism = {
 			popularity = 0
 		}
-		
+
 		communism = {
 			popularity = 0
 			#banned = no #default is no
 		}
-		
-		neutrality = { 
+
+		neutrality = {
 			popularity = 100
 		}
 	}
-		
+
 		ruling_party = neutrality
 		last_election = "1936.1.1"
 		election_frequency = 48

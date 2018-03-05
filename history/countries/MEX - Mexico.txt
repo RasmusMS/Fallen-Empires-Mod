@@ -15,7 +15,7 @@ set_country_flag = monroe_doctrine
 1939.1.1 = {
 
 	add_political_power = 1198
-	
+
 	#generic focuses
 	complete_national_focus = army_effort
 	complete_national_focus = equipment_effort
@@ -26,7 +26,7 @@ set_country_flag = monroe_doctrine
 	complete_national_focus = industrial_effort
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
-	
+
 	oob = "MEX_1939"
 	set_technology = {
 		interwar_artillery = 1
@@ -70,27 +70,27 @@ set_convoys = 45
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 5
+		democratic = {
+			popularity = 16
 		}
 
 		fascism = {
-			popularity = 0
+			popularity = 16
 		}
-		
+
 		communism = {
-			popularity = 1
+			popularity = 16
 		}
-		
-		neutrality = { 
-			popularity = 94
+
+		monarchy = {
+			popularity = 51
 		}
 	}
-	
-	ruling_party = neutrality
+
+	ruling_party = monarchy
 	last_election = "1934.7.1"
 	election_frequency = 72
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_national_unity = 0.8
@@ -143,23 +143,23 @@ create_country_leader = {
 	set_politics = {
 
 		parties = {
-		democratic = { 
+		democratic = {
 			popularity = 1
 		}
 
 		fascism = {
 			popularity = 0
 		}
-		
+
 		communism = {
 			popularity = 1
 		}
-		
-		neutrality = { 
+
+		neutrality = {
 			popularity = 98
 		}
 	}
-	
+
 	ruling_party = neutrality
 		last_election = "1934.7.1"
 		election_frequency = 72
