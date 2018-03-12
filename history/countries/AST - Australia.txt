@@ -121,21 +121,25 @@ set_politics = {
 
 	parties = {
 		democratic = {
-			popularity = 98
+			popularity = 32
 		}
 
 		fascism = {
-			popularity = 0
+			popularity = 2
 		}
 
 		communism = {
-			popularity = 2
+			popularity = 12
+			#banned = no #default is no
+		}
+		monarchy = {
+			popularity = 54
 			#banned = no #default is no
 		}
 	}
 
-	ruling_party = democratic
-	last_election = "1934.9.15"
+	ruling_party = monarchy
+	last_election = "1935.11.27"
 	election_frequency = 36
 	elections_allowed = yes
 }
@@ -196,36 +200,6 @@ create_country_leader = {
 }
 
 set_convoys = 100
-
-set_politics = {
-
-	parties = {
-		democratic = {
-			popularity = 32
-		}
-
-		fascism = {
-			popularity = 2
-		}
-
-		communism = {
-			popularity = 12
-			#banned = no #default is no
-		}
-		monarchy = {
-			popularity = 54
-			#banned = no #default is no
-		}
-	}
-
-	ruling_party = monarchy
-	last_election = "1935.11.27"
-	election_frequency = 36
-	elections_allowed = yes
-}
-
-	set_convoys = 100
-}
 
 create_corps_commander = {
 	name = "Leslie Morshead"

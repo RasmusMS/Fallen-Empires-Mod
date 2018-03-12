@@ -1,11 +1,11 @@
 state={
-	id=743
-	name="STATE_743"
+	id=762
+	name="STATE_762"
 	manpower = 207158
 	resources={
 		oil=20
 	}
-	
+
 	state_category = town
 
 	history={
@@ -16,7 +16,7 @@ state={
 		}
 		add_core_of = MEX
 		victory_points = {
-			7684 3 
+			7684 3
 		}
     }
 

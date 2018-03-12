@@ -1,13 +1,11 @@
-state=
-{
-	id=746
-	name="STATE_746"
+state = {
+	id=765
+	name="STATE_765"
 	manpower = 6586596
 
 	state_category = town
 
-	history=
-	{
+	history = {
 		owner = ENG
 		buildings = {
 			infrastructure = 5
@@ -19,7 +17,7 @@ state=
 
 	}
 
-	provinces={
-		9947 1155 12049 4073
+	provinces = {
+		1155 4073 9947 12049
 	}
 }

@@ -288,7 +288,458 @@ set_politics = {
 	elections_allowed = no ##suspended through duration of war, which is handled via event
 }
 
+#############################
+##												 ##
+##     PUPPET POLITICS     ##
+##												 ##
+#############################
 
+#TAG = {
+#	add_popularity = {
+#		ideology =
+#		popularity = 1
+#	}
+#	add_popularity = {
+#		ideology =
+#		popularity =
+#	}
+#	add_popularity = {
+#		ideology =
+#		popularity =
+#	}
+#	add_popularity = {
+#		ideology =
+#		popularity =
+#	}
+#	add_popularity = {
+#		ideology =
+#		popularity =
+#	}
+#
+#	ruling_party =
+#	last_election = ""
+#	election_frequency =
+#	elections_allowed =
+#}
+
+AST = {
+	 add_popularity = {
+	 	ideology = monarchy
+		popularity = 1
+	 }
+	 add_popularity = {
+	 	ideology = democratic
+		popularity = 0.32
+	 }
+	 add_popularity = {
+	 	ideology = communism
+		popularity = 0.12
+	 }
+	 add_popularity = {
+	 	ideology = fascism
+		popularity = 0.02
+	 }
+	 add_popularity = {
+	 	ideology = theocracy
+		popularity = 0
+	 }
+
+	 ruling_party = monarchy
+ 	 last_election = "1935.11.27"
+ 	 election_frequency = 36
+ 	 elections_allowed = yes
+}
+
+BSA = {
+	add_popularity = {
+		ideology = monarchy
+		popularity = 1
+	}
+	add_popularity = {
+		ideology = fascism
+		popularity = 0.17
+	}
+	add_popularity = {
+		ideology = democratic
+		popularity = 0.10
+	}
+	add_popularity = {
+		ideology = communism
+		popularity = 0.3
+	}
+	add_popularity = {
+		ideology = theocracy
+		popularity = 0
+	}
+
+	ruling_party = monarchy
+	last_election = "1929.5.7"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+BRI = {
+	add_popularity = {
+		ideology = monarchy
+		popularity = 1
+	}
+	add_popularity = {
+		ideology = communism
+		popularity = 0.20
+	}
+	add_popularity = {
+		ideology = fascism
+		popularity = 0.20
+	}
+	add_popularity = {
+		ideology = democratic
+		popularity = 0.10
+	}
+	add_popularity = {
+		ideology = theocracy
+		popularity = 0
+	}
+
+	ruling_party = monarchy
+	last_election = "1929.23.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+BRH = {
+	add_popularity = {
+		ideology = monarchy
+		popularity = 1
+	}
+	add_popularity = {
+		ideology = communism
+		popularity = 0.30
+	}
+	add_popularity = {
+		ideology = democratic
+		popularity = 0.15
+	}
+	add_popularity = {
+		ideology = fascism
+		popularity = 0.05
+	}
+	add_popularity = {
+		ideology =theocracy
+		popularity = 0
+	}
+
+	ruling_party = monarchy
+	last_election = "1929.9.2"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+BTA = {
+	add_popularity = {
+		ideology = monarchy
+		popularity = 1
+	}
+	add_popularity = {
+		ideology = democratic
+		popularity = 0.30
+	}
+	add_popularity = {
+		ideology = fascism
+		popularity = 0.19
+	}
+	add_popularity = {
+		ideology = communism
+		popularity = 0.01
+	}
+	add_popularity = {
+		ideology = theocracy
+		popularity = 0
+	}
+
+	ruling_party = monarchy
+	last_election = "1929.5.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+BRU = {
+	add_popularity = {
+		ideology = monarchy
+		popularity = 1
+	}
+	add_popularity = {
+		ideology = communism
+		popularity = 0.25
+	}
+	add_popularity = {
+		ideology = fascism
+		popularity = 0.15
+	}
+	add_popularity = {
+		ideology = democratic
+		popularity = 0.10
+	}
+	add_popularity = {
+		ideology = theocracy
+		popularity = 0
+	}
+
+	ruling_party = monarchy
+	last_election = "1929.7.21"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+BKE = {
+	add_popularity = {
+		ideology = monarchy
+		popularity = 1
+	}
+	add_popularity = {
+		ideology = communism
+		popularity = 0.20
+	}
+	add_popularity = {
+		ideology = fascism
+		popularity = 0.20
+	}
+	add_popularity = {
+		ideology = democratic
+		popularity = 0.10
+	}
+	add_popularity = {
+		ideology = theocracy
+		popularity = 0
+	}
+	ruling_party = monarchy
+	last_election = "1929.12.3"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+BWA = {
+	add_popularity = {
+		ideology = monarchy
+		popularity = 1
+	}
+	add_popularity = {
+		ideology = democratic
+		popularity = 0.29
+	}
+	add_popularity = {
+		ideology = fascism
+		popularity = 0.12
+	}
+	add_popularity = {
+		ideology = communism
+		popularity = 0.09
+	}
+	add_popularity = {
+		ideology = theocracy
+		popularity = 0
+	}
+
+	ruling_party = monarchy
+	last_election = "1928.9.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+BCA = {
+	add_popularity = {
+		ideology = monarchy
+		popularity = 1
+	}
+	add_popularity = {
+		ideology = fascism
+		popularity = 0.20
+	}
+	add_popularity = {
+		ideology = communism
+		popularity = 0.20
+	}
+	add_popularity = {
+		ideology = democratic
+		popularity = 0.10
+	}
+	add_popularity = {
+		ideology = theocracy
+		popularity = 0
+	}
+
+	ruling_party = monarchy
+	last_election = "1928.3.17"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+BSU = {
+	add_popularity = {
+		ideology = monarchy
+		popularity = 1
+	}
+	add_popularity = {
+		ideology = communism
+		popularity = 0.20
+	}
+	add_popularity = {
+		ideology = fascism
+		popularity = 0.15
+	}
+	add_popularity = {
+		ideology = democratic
+		popularity = 0.15
+	}
+	add_popularity = {
+		ideology = theocracy
+		popularity = 0
+	}
+
+	ruling_party = monarchy
+	last_election = "1927.8.16"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+BEG = {
+	add_popularity = {
+		ideology = monarchy
+		popularity = 1
+	}
+	add_popularity = {
+		ideology = democratic
+		popularity = 0.25
+	}
+	add_popularity = {
+		ideology = fascism
+		popularity = 0.20
+	}
+	add_popularity = {
+		ideology = communism
+		popularity = 0.5
+	}
+	add_popularity = {
+		ideology = theocracy
+		popularity = 0
+	}
+
+	ruling_party = monarchy
+	last_election = "1926.7.22"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+MAL = {
+	add_popularity = {
+		ideology = monarchy
+		popularity = 1
+	}
+	add_popularity = {
+		ideology = communism
+		popularity = 0.24
+	}
+	add_popularity = {
+		ideology = democratic
+		popularity = 0.20
+	}
+	add_popularity = {
+		ideology = fascism
+		popularity = 0
+	}
+	add_popularity = {
+		ideology = theocracy
+		popularity = 0
+	}
+
+	ruling_party = monarchy
+	last_election = "1927.10.28"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+NZL = {
+	add_popularity = {
+		ideology = monarchy
+		popularity = 1
+	}
+	add_popularity = {
+		ideology = democratic
+		popularity = 0.32
+	}
+	add_popularity = {
+		ideology = communism
+		popularity = 0.12
+	}
+	add_popularity = {
+		ideology = fascism
+		popularity = 0.02
+	}
+	add_popularity = {
+		ideology = theocracy
+		popularity = 0
+	}
+
+	ruling_party = monarchy
+	last_election = "1927.8.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+CAN = {
+	add_popularity = {
+		ideology = monarchy
+		popularity = 1
+	}
+	add_popularity = {
+		ideology = democratic
+		popularity = 0.30
+	}
+	add_popularity = {
+		ideology = communism
+		popularity = 0.15
+	}
+	add_popularity = {
+		ideology = fascism
+		popularity = 0.05
+	}
+	add_popularity = {
+		ideology = theocracy
+		popularity = 0
+	}
+
+	ruling_party = monarchy
+	last_election = "1927.4.24"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+BBE = {
+	add_popularity = {
+		ideology = monarchy
+		popularity = 1
+	}
+	add_popularity = {
+		ideology = democratic
+		popularity = 0.28
+	}
+	add_popularity = {
+		ideology = fascism
+		popularity = 0.12
+	}
+	add_popularity = {
+		ideology = communism
+		popularity = 0.10
+	}
+	add_popularity = {
+		ideology = theocracy
+		popularity = 0
+	}
+
+	ruling_party = monarchy
+	last_election = "1927.3.21"
+	election_frequency = 48
+	elections_allowed = no
+}
 
 create_faction = Allies
 add_to_faction = ENG

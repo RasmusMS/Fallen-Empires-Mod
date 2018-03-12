@@ -50,3 +50,32 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no ##suspended through duration of war, which is handled via event
 }
+
+SWE = {
+	add_popularity = {
+		ideology = monarchy
+		popularity = 1
+	}
+	add_popularity = {
+		ideology = fascism
+		popularity = 0.17
+	}
+	add_popularity = {
+		ideology = communism
+		popularity = 0.04
+	}
+	add_popularity = {
+		ideology = democratic
+		popularity = 0.03
+	}
+	add_popularity = {
+		ideology = theocracy
+		popularity = 0
+	}
+	set_politics = {
+		ruling_party = monarchy
+		last_election = "1929.15.4"
+		election_frequency = 48
+		elections_allowed = no
+	}
+}

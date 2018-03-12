@@ -13,20 +13,22 @@ add_ideas = {
 
 set_convoys = 40
 
-parties = {
-	democratic = {
-		popularity = 5
-	}
+set_politics {
+	parties = {
+		democratic = {
+			popularity = 5
+		}
 
-	fascism = {
-		popularity = 10
-	}
+		fascism = {
+			popularity = 10
+		}
 
-	communism = {
-		popularity = 5
-	}
-	monarchy = {
-	 popularity = 80
+		communism = {
+			popularity = 5
+		}
+		monarchy = {
+	 		popularity = 80
+		}
 	}
 }
 
